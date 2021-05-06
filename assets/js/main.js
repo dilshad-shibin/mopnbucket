@@ -151,7 +151,7 @@
         if ($testimonialCarousel.length > 0) {
             $testimonialCarousel.owlCarousel({
                 loop: true,
-                autoplay: true, //true if you want enable autoplay
+                autoplay: false, //true if you want enable autoplay
                 autoPlayTimeout: 1000,
                 dots: false,
                 nav: true,
