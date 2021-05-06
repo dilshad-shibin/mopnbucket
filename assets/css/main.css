@@ -15101,7 +15101,12 @@ ul.cat li a:hover {
     margin-left: 50px;
     margin-right: 50px;
   }
+  .our-services-are .ml-40{
+    margin-left: 0;
+  }
 }
+
+
 .pricing-text h3 {
   color: #ffffff;
   font-size: 24px;
@@ -15280,3 +15285,27 @@ ul.cat li a:hover {
   border-radius: 50%;
   transition: 0.3s;
 }
+
+.box-address{
+    margin: 25px 0;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 32%);
+    padding: 15px;
+    min-height: 200px;
+    background: #23A036;
+}
+
+.box-address-yellow{
+  background: #FFCB2D;
+}
+
+.box-address .fa{
+    font-size: 46px;
+    position: relative;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.box-address p{
+  color: #fff;
+}
+
