@@ -4,8 +4,13 @@
 	// meanmenu
 	$('#mobile-menu').meanmenu({
 		meanMenuContainer: '.mobile-menu',
-		meanScreenWidth: "992"
+		meanScreenWidth: "992",
 	});
+
+	$(".mean-container .mean-nav ul li").click(function(){
+		// alert("hai")
+		// $(".mean-container .mean-nav").toggleClass();
+	})
 	
 	// info-bar
 	$('.info-bar').on('click', function () {
